@@ -11,5 +11,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    protected void onSubmit(){
+        /*
+        In this method, the email and password that the user enters will be checked for validity
+        through a database
+        */
 
+    }
 }
